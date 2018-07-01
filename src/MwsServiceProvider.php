@@ -6,6 +6,8 @@
  * Time: 22:17
  */
 
+namespace LaravelAmazonMws;
+
 use Illuminate\Support\ServiceProvider;
 
 class MwsServiceProvider extends ServiceProvider
