@@ -16,6 +16,8 @@
  * limitations under the License.
  */
 
+namespace LaravelAmazonMws;
+
 /**
  * The main core of the Amazon class.
  * 

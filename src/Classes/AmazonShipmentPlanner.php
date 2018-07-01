@@ -16,6 +16,8 @@
  * limitations under the License.
  */
 
+namespace LaravelAmazonMws;
+
 /**
  *  Fetches an inbound shipment plan from Amazon.
  * 

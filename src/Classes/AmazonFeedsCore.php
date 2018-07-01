@@ -16,6 +16,8 @@
  * limitations under the License.
  */
 
+namespace LaravelAmazonMws;
+
 /**
  * Core class for Amazon Feeds API.
  * 

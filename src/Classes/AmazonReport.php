@@ -16,6 +16,8 @@
  * limitations under the License.
  */
 
+namespace LaravelAmazonMws;
+
 /**
  * Fetches a report from Amazon
  * 

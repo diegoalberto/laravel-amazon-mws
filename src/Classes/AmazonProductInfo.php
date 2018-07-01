@@ -16,6 +16,8 @@
  * limitations under the License.
  */
 
+namespace LaravelAmazonMws;
+
 /**
  * Fetches various information about products from Amazon.
  * 

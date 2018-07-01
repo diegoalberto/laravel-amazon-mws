@@ -16,6 +16,8 @@
  * limitations under the License.
  */
 
+namespace LaravelAmazonMws;
+
 /**
  * Fetches the status of the a specific service from Amazon.
  * 

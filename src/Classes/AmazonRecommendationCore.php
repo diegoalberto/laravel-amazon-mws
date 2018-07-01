@@ -17,6 +17,8 @@
  * limitations under the License.
  */
 
+namespace LaravelAmazonMws;
+
 /**
  * Core class for Amazon Recommendations API.
  *

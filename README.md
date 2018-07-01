@@ -1,7 +1,7 @@
 # astgroup/laravel-amazon-mws
 A minimal service provider to set up and use the Amazon MWS API PHP library in Laravel 5.*
 
-Forked from https://github.com/CPIGroup/phpAmazonMWS
+Forked from https://github.com/CPIGroup/phpAmazonMWS (based on 1.4.2)
 
 
 ## How it works - Usage Example

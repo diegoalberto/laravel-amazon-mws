@@ -17,6 +17,8 @@
  * limitations under the License.
  */
 
+namespace LaravelAmazonMws;
+
 /**
  * Pulls a list of active recommendations from Amazon.
  *

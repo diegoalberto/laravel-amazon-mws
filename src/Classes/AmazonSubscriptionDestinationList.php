@@ -17,6 +17,8 @@
  * limitations under the License.
  */
 
+namespace LaravelAmazonMws;
+
 /**
  * Pulls a list of registered subscription destinations from Amazon.
  *

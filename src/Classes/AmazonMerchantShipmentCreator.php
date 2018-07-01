@@ -16,6 +16,8 @@
  * limitations under the License.
  */
 
+namespace LaravelAmazonMws;
+
 /**
  * Creates a Merchant Fulfillment Shipment Amazon.
  *

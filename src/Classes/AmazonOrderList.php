@@ -16,6 +16,10 @@
  * limitations under the License.
  */
 
+namespace LaravelAmazonMws;
+
+use Exception;
+
 /**
  * Pulls a list of Orders and turn them into an array of AmazonOrder objects.
  * 
