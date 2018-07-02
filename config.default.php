@@ -20,7 +20,7 @@ return [
         //Turn off normal logging
         'muteLog' => false,
     ],
-    'access_key' => [
+    'accessKey' => [
         'NA' => [
             'id' => env('MWS_ACCESS_KEY_ID_NA', ''),
             'secret_key' => env('MWS_SECRET_KEY_NA', ''),
@@ -47,58 +47,58 @@ return [
         'AU' => 'https://mws.amazonservices.com.au/',
         'JP' => 'https://mws.amazonservices.jp/',
     ],
-    'market_place' => [
+    'marketPlace' => [
         'CA' => [
             'id' => 'A2EUQ1WTGCTBG2',
-            'endpoint' => 'NA'
+            'endpoint' => 'https://mws.amazonservices.com/'
         ],
         'MX' => [
             'id' => 'A1AM78C64UM0Y8',
-            'endpoint' => 'NA'
+            'endpoint' => 'https://mws.amazonservices.com/'
         ],
         'US' => [
             'id' => 'ATVPDKIKX0DER',
-            'endpoint' => 'NA'
+            'endpoint' => 'https://mws.amazonservices.com/'
         ],
         'BR' => [
             'id' => 'A2Q3Y263D00KWC',
-            'endpoint' => 'BR'
+            'endpoint' => 'https://mws.amazonservices.com/'
         ],
         'DE' => [
             'id' => 'A1PA6795UKMFR9',
-            'endpoint' => 'EU'
+            'endpoint' => 'https://mws-eu.amazonservices.com/'
         ],
         'ES' => [
             'id' => 'A1RKKUPIHCS9HS',
-            'endpoint' => 'EU'
+            'endpoint' => 'https://mws-eu.amazonservices.com/'
         ],
         'FR' => [
             'id' => 'A13V1IB3VIYZZH',
-            'endpoint' => 'EU'
+            'endpoint' => 'https://mws-eu.amazonservices.com/'
         ],
         'IT' => [
             'id' => 'APJ6JRA9NG5V4',
-            'endpoint' => 'EU'
+            'endpoint' => 'https://mws-eu.amazonservices.com/'
         ],
         'GB' => [
             'id' => 'A1F83G8C2ARO7P',
-            'endpoint' => 'EU'
+            'endpoint' => 'https://mws-eu.amazonservices.com/'
         ],
         'IN' => [
             'id' => 'A21TJRUUN4KGV',
-            'endpoint' => 'IN'
+            'endpoint' => 'https://mws.amazonservices.in/'
         ],
         'AU' => [
             'id' => 'A39IBJ37TRP1C6',
-            'endpoint' => 'AU'
+            'endpoint' => 'https://mws.amazonservices.com.au/'
         ],
         'JP' => [
             'id' => 'A1VC38T7YXB528',
-            'endpoint' => 'JP'
+            'endpoint' => 'https://mws.amazonservices.jp/'
         ],
         'CN' => [
             'id' => 'AAHKV2X7AFYLW',
-            'endpoint' => 'CN'
+            'endpoint' => 'https://mws.amazonservices.com.cn/'
         ],
     ],
 ];
