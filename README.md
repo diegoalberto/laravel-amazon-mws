@@ -3,6 +3,7 @@ A minimal service provider to set up and use the Amazon MWS API PHP library in L
 
 Forked from https://github.com/CPIGroup/phpAmazonMWS (based on 1.4.2)
 
+Version: 0.1.15
 
 ## How it works - Usage Example
 
