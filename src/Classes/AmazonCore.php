@@ -141,7 +141,7 @@ abstract class AmazonCore
         $this->setStore($s);
         $this->setMock($mock, $m);
 
-        $this->env = __DIR__ . '/../../environment.php';
+        $this->env = dirname(__DIR__, 2) . '/environment.php';
         $this->options['SignatureVersion'] = 2;
         $this->options['SignatureMethod'] = 'HmacSHA256';
     }
