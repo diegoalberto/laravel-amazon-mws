@@ -415,7 +415,7 @@ abstract class AmazonCore
     public function setStore(array $s = null)
     {
         if (!is_null($s)) {
-            $this->storeName = $s;
+            $this->s = $s;
             if (array_key_exists('merchantId', $s)) {
                 $this->options['SellerId'] = $s['merchantId'];
             } else {
