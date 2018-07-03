@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-namespace LaravelAmazonMws;
+namespace ASTGroup\LaravelAmazonMws;
 
 /**
  * Fetches list marketplace fee estimates from Amazon.

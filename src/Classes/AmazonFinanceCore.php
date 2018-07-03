@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-namespace LaravelAmazonMws;
+namespace ASTGroup\LaravelAmazonMws;
 
 /**
  * Core class for Amazon Finances API.

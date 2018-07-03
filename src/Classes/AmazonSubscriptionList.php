@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-namespace LaravelAmazonMws;
+namespace ASTGroup\LaravelAmazonMws;
 
 /**
  * Pulls a list of subscriptions from Amazon.

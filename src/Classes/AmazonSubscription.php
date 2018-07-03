@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-namespace LaravelAmazonMws;
+namespace ASTGroup\LaravelAmazonMws;
 
 /**
  * Creates a subscription on Amazon or updates it, or registers subscription destinations.

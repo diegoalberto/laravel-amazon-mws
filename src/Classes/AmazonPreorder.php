@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-namespace LaravelAmazonMws;
+namespace ASTGroup\LaravelAmazonMws;
 
 /**
  * Fetches preorder info for an inbound fulfillment shipment or confirms it.

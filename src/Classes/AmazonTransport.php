@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-namespace LaravelAmazonMws;
+namespace ASTGroup\LaravelAmazonMws;
 
 /**
  * Fetches transport info for a fulfillment shipment or updates it.

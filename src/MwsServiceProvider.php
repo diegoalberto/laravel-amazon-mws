@@ -6,7 +6,7 @@
  * Time: 22:17
  */
 
-namespace LaravelAmazonMws;
+namespace ASTGroup\LaravelAmazonMws;
 
 use Illuminate\Support\ServiceProvider;
 

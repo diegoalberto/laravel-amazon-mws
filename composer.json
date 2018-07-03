@@ -25,13 +25,13 @@
   },
   "autoload": {
     "psr-4": {
-      "LaravelAmazonMws\\": "src/"
+      "ASTGroup\\LaravelAmazonMws\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "LaravelAmazonMws\\MwsServiceProvider"
+        "ASTGroup\\LaravelAmazonMws\\MwsServiceProvider"
       ]
     }
   }
