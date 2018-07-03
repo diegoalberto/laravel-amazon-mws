@@ -371,7 +371,6 @@ abstract class AmazonCore
      */
     public function setConfig(array $config)
     {
-        include($config);
         $this->config = $config;
         $this->setLogPath($config['logpath']);
         if (isset($config['AMAZON_SERVICE_URL'])) {
