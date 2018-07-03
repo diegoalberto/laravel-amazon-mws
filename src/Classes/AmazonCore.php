@@ -470,9 +470,7 @@ abstract class AmazonCore
         if ($msg != false) {
             $backtrace = debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS);
 
-            if (file_exists($this->config)) {
-                include($this->config);
-            } else {
+            if (!isset($this->config)) {
                 throw new Exception("Config file does not exist!");
             }
             if (isset($logfunction) && $logfunction != '' && function_exists($logfunction)) {
@@ -591,9 +589,7 @@ abstract class AmazonCore
      */
     protected function genQuery()
     {
-        if (file_exists($this->config)) {
-            include($this->config);
-        } else {
+        if (!isset($this->config)) {
             throw new Exception("Config file does not exist!");
         }
 
