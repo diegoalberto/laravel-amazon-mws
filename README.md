@@ -7,11 +7,11 @@ Forked from https://github.com/CPIGroup/phpAmazonMWS (based on 1.4.2)
 ## How it works - Usage Example
 
 ```php
-use Mws\Laravel\AmazonOrderList;
+use LaravelAmazonMws\AmazonOrderList;
 ```
 
 ```php
-$amz = new AmazonOrderList(Setting::get('storeName')); //Store name matches the array key in the settings
+$amz = new AmazonOrderList($store); // Store array
 $amz->setLimits('Modified', "- 5000 hours");
 $amz->setFulfillmentChannelFilter("AFN"); //Amazon-fulfilled orders
 $amz->setOrderStatusFilter(
@@ -32,27 +32,8 @@ Note: Adding this dependency will automatically setup "anlutro/l4-settings" too.
 
 ```json
 "require": {
-    "astgroup/laravel-amazon-mws": "1.*",
+    "astgroup/laravel-amazon-mws": "0.*",
 }
-```
-
-**Step 2: Register the service providers and alias**
-
-Register the service providers in ```config/app.php``` by inserting into the ```providers``` array
-
-```php
-'providers' => [
-	anlutro\LaravelSettings\ServiceProvider::class,
-	Mws\Laravel\MwsServiceProvider::class,
-]
-```
-
-Add the following alias to your 'aliases' array ```config/app.php```
-
-```php
-'aliases' => [
-	'Setting' => 'anlutro\LaravelSettings\Facade'
-]
 ```
 
 **Step 3: From the command-line run**
