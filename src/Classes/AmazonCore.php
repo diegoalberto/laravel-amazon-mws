@@ -593,8 +593,8 @@ abstract class AmazonCore
             throw new Exception("Config file does not exist!");
         }
 
-        if (array_key_exists($this->storeName, $store) && array_key_exists('secretKey', $store[$this->storeName])) {
-            $secretKey = $store[$this->storeName]['secretKey'];
+        if (array_key_exists('secretKey', $this->s)) {
+            $secretKey = $this->s['secretKey'];
         } else {
             throw new Exception("Secret Key is missing!");
         }
