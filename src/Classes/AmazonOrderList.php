@@ -20,6 +20,7 @@ namespace ASTGroup\LaravelAmazonMws;
 
 use Exception;
 use Iterator;
+use SimpleXMLElement;
 
 /**
  * Pulls a list of Orders and turn them into an array of AmazonOrder objects.

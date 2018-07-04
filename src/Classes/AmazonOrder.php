@@ -18,6 +18,8 @@
 
 namespace ASTGroup\LaravelAmazonMws;
 
+use SimpleXMLElement;
+
 /**
  * Gets the details for a single order from Amazon.
  * 
