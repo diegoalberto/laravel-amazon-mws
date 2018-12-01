@@ -1,5 +1,5 @@
 {
-  "name": "astgroup/laravel-amazon-mws",
+  "name": "diegoalberto/laravel-amazon-mws",
   "type": "library",
   "description": "A minimal service provider to set up and use the MWS API PHP library in Laravel 5.*",
   "license": "GPL-3.0-only",
@@ -21,7 +21,7 @@
     }
   ],
   "require": {
-    "laravel/framework": "5.6.*"
+    "laravel/framework": "5.7.*"
   },
   "autoload": {
     "psr-4": {
